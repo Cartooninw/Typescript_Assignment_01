@@ -1,4 +1,8 @@
 
+const collection_1 = [15, 32, 33, 35, 55];
+const collection_2 = [14, 25, 36, 49, 64, 81, 100];
+const collection_3 = [101, 96, 82, 75, 64, 58]; 
+
 export function merge(
   collection_1: number[],
   collection_2: number[],
@@ -35,3 +39,7 @@ export function merge(
 
   return result;
 }
+console.log("Array One: " + collection_1);
+console.log("Array Two: " + collection_2);
+console.log("Array Three: " + collection_3);
+console.log("Result: " + merge(collection_1, collection_2, collection_3));

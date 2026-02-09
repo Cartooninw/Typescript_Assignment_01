@@ -31,7 +31,7 @@ describe("merge()", () => {
   });
 
 
-  test("works on your example-style case (2 asc, 1 desc)", () => {
+  test("works on Complex", () => {
     const collection_1 = [15, 32, 33, 35, 55];
     const collection_2 = [14, 25, 36, 49, 64, 81, 100];
     const collection_3 = [101, 96, 82, 75, 64, 58]; 
