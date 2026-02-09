@@ -14,17 +14,17 @@ npm install
 ```
 
 ### Excute the Code
-    Run The typescript directly
 
-    Build
+Build
 ```bash
   npm run build
 ```
 
+Run The typescript directly
 ```bash
   npm run dev
 ```
-    Test
+Test
 ```bash
   npm test
 ```
